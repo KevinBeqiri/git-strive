@@ -39,6 +39,7 @@
   color: white;
   text-align: center;
   line-height: 50px;
+  margin-top: 20%;
 }
         table{
             margin-left: 2%;
@@ -256,11 +257,46 @@
         width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
       
       </div>
-      <footer>Smartphone Shop        ( ADDRESS:Vlore,Albania)</footer>
+      <h2 id="listTitle">Todo List</h2>
+      <ul id="firstList">
+          <li><p>1st</p></li>
+          <li>2nd</li>
+          <li>3rd</li>
+      </ul>
+      <ul id="secondList">
+          <li>1st</li>
+          <li>2nd</li>
+          <li>3rd</li>
+      </ul>
+      <div>
+        <input type="button" id="changeP" value="change P" onclick="changePContent()"/>
+      </div>
+      <div>
+          <p>This text is just for the exercise</p>
+      </div>
+      <div></div>
+      <div></div>
+     
+     
         <script>
+          /*ex1*/
            window.onload = function () {
     console.log(window.alert("Welcome"));
   };
+  /*ex2*/
+  const changeTitle = function (newTitle) {
+      document.querySelector("title").innerText = "Tittle Changed";
+  /*ex 4*/
+   function changePContent() {
+    let classDiv =document.getElementsByTagName("p")[1]
+   classDiv.innerText = "Changed the paragraph"
+      
+    };
+/*ex 5*/
+    const changeListTitle = function (content) {
+      document.getElementById("listTitle").innerText ="changed Title"
+    };
+
         </script>
   </body>
 </html>
