@@ -1,0 +1,266 @@
+<html>
+  <!--
+        You have been assigned to the creation of a Smartphone Shop Website.
+        The shop is just a showcase of the products of the shop with some extra informations.
+        No shopping cart / checkout features are required.
+        EX1.:
+        Add H1 title with the name of the shop
+        EX2.: 
+        Add a TABLE with the top 5 products of the shop
+        EX3.: 
+        Each product should have one image, title, description and price
+        EX4.:
+        Add Map to the shop 
+        EX5.: 
+        Add the links to Amazon products for each item in the table
+        EX6.:
+        Add a footer with the address and the name of the shop
+        EX7.: 
+        Add a message board where the user can type a message in it (only client side)
+        // EXTRA 
+        EX8.: 
+        Write a function to change the heading text
+        EX9.:
+        Write a function to change the page background color
+        EX10.:
+        Write a function to change the footer address with a fake one
+    -->
+
+  <head>
+    <title>Smartphone Shop</title>
+    <style>
+        footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+        table{
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        background-color: rgb(243, 235, 235);
+      }
+      th {
+        background-color: rgb(107, 103, 103);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 id ="h1"style="text-align: center">Smartphone Shop</h1>
+   
+    <table>
+      <tr>
+        <th>Product</th>
+        <th>Image</th>
+        <th>Title</th>
+        <th>Description</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Xiaomi Redmi Note 8</td>
+        <td>
+          <a
+            href="https://www.amazon.com/Xiaomi-Redmi-Factory-Unlocked-Smartphone/dp/B07Y8Y6HVW/ref=sr_1_4?crid=1SG8GZGE5W4RV&dchild=1&keywords=smartphone&qid=1601900863&s=electronics&sprefix=smart%2Ccomputers-intl-ship%2C324&sr=1-4"
+            ><img
+              src="xiaominote8.jpg"
+              alt="xiaomi note 8"
+              width="120px"
+              height="120px"
+          /></a>
+        </td>
+        <td>
+          Xiaomi Redmi Note 8 Pro 64GB, 6GB RAM 6.53" LTE GSM 64MP Factory
+          Unlocked Smartphone - Global Model (Forest Green)
+        </td>
+        <td>
+          <ul>
+            <li>
+              6.53 inches 1080 x 2340 pixels, 19.5:9 ratio (~395 ppi density),
+              Corning Gorilla Glass 5, HDR - Fingerprint (rear-mounted)
+            </li>
+            <li>
+              Rear Camera: 64 MP, f/1.9 (wide) + 8 MP, f/2.2 (ultrawide) + 2 MP,
+              f/2.4 (dedicated macro camera) + 2 MP, f/2.4 - Front Camera: 20
+              MP, f/2.0 - Video: 2160p@30fps
+            </li>
+            <li>
+              64GB + 6GB RAM - microSD, up to 256 GB - MediaTek Helio G90T
+              Octa-core - Non-removable Li-Po 4500 mAh battery - Android 9 Pie
+            </li>
+          </ul>
+        </td>
+        <td>$200.00</td>
+      </tr>
+
+      <tr>
+        <td>UMIDIGI A7 Pro</td>
+        <td>
+          <a
+            href="https://www.amazon.com/UMIDIGI-Unlocked-4150mAh-Capacity-Smartphone/dp/B08924QPQZ/ref=sr_1_1_sspa?crid=1SG8GZGE5W4RV&dchild=1&keywords=smartphone&qid=1601901925&s=electronics&sprefix=smart%2Ccomputers-intl-ship%2C324&sr=1-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyUTRFSUhBS0g3VTZWJmVuY3J5cHRlZElkPUEwNTkwODAwM1JRTEZYNDQ5RlZXUCZlbmNyeXB0ZWRBZElkPUEwNjk1NjI5MjNaQ1RIU1IxUjlBOSZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU="
+            ><img
+              src="a7.jpg"
+              alt="UMIDIGI A7 Pro"
+              width="120px"
+              height="120px"
+          /></a>
+        </td>
+        <td>
+          UMIDIGI A7 Pro Unlocked Cell Phones(4GB+128GB) 6.3" FHD+ Full Screen,
+          4150mAh High Capacity Battery Smartphone with 16MP AI Quad Camera,
+          Android 10 and Dual 4G Volte(Ocean Blue).
+        </td>
+        <td>
+          <ul>
+            <li>
+              【AI Quad Camera Fit For All Scenes】Including a 16MP main camera
+              + 16MP ultra-wide angle camera + 5MP Macro Camera + 5MP F/1.8
+              large aperture camera and with built-in super night mode, you can
+              take A7 Pro to record your life day and night, explore the tiny
+              world and grand views, take nice photos and beautiful selfies.
+            </li>
+            <li>
+              【Octa-Core 4GB RAM Processor + Large storage room】UMIDIGI A7 Pro
+              unlocked phone upgraded its Octa-Core processor, you can enjoy
+              smooth operating experience and have more fun in playing mobile
+              games and watching videos. We provide more storage rooms for your
+              apps and photos, 64GB and 128 GB are optional.
+            </li>
+            <li>
+              【4150mAh High-capacity Battery】Powered by a 4150mAh big battery,
+              you can easily go through 2 days of daily use. Charging port is
+              replaced with new type-C plug, you could have more choice in
+              adapters.
+            </li>
+          </ul>
+        </td>
+        <td>$169.99</td>
+      </tr>
+      <tr>
+        <td>Samsung Galaxy S10</td>
+        <td>
+          <a
+            href="https://www.amazon.com/Samsung-Galaxy-Factory-Unlocked-Phone/dp/B07N4M412B/ref=sxin_10_ac_d_pm?ac_md=5-2-QWJvdmUgJDUwMA%3D%3D-ac_d_pm&crid=1SG8GZGE5W4RV&cv_ct_cx=smartphone&dchild=1&keywords=smartphone&pd_rd_i=B07N4M412B&pd_rd_r=10428f8f-ca18-45f9-8ddc-6687f8e1a20b&pd_rd_w=0cYOk&pd_rd_wg=XI9uq&pf_rd_p=3d1a8341-be16-45b1-ae3d-ba8c533ec9f0&pf_rd_r=P1R4SVRKGRNY2YC4JCB5&psc=1&qid=1601901925&s=electronics&sprefix=smart%2Ccomputers-intl-ship%2C324&sr=1-3-12d4272d-8adb-4121-8624-135149aa9081"
+            ><img src="s10.jpg" alt="Galaxy s10" width="90px" height="120px"
+          /></a>
+        </td>
+        <td>
+          Samsung Galaxy S10 Factory Unlocked Android Cell Phone | US Version |
+          128GB of Storage | Fingerprint ID and Facial Recognition |
+          Long-Lasting Battery | Prism Black (SM-G973U1ZKAX)
+        </td>
+        <td>
+          <ul>
+            <li>
+              High-quality camera lenses: With a full set of pro lenses,
+              including ultrawide for stunning landscapes and micro-zoom for
+              epic details, Galaxy S10 is a studio in your pocket, featuring
+              live video bokeh, precision audio focus and super-stabilization
+            </li>
+            <li>
+              Photos and video with one tap: capture multiple images and video
+              all at once, in one tap. Lenses, effects and filters capture the
+              best of every moment, every time
+            </li>
+            <li>
+              Updated Camera Features: Get the more powerful S10 with a software
+              update that gives you all new features including Single Take AI,
+              Pro Video and more
+            </li>
+          </ul>
+        </td>
+        <td>$699.99</td>
+      </tr>
+      <tr>
+        <td>Nokia 7.2</td>
+        <td>
+          <a
+            href="https://www.amazon.com/Samsung-Galaxy-Factory-Unlocked-Phone/dp/B07N4M412B/ref=sxin_10_ac_d_pm?ac_md=5-2-QWJvdmUgJDUwMA%3D%3D-ac_d_pm&crid=1SG8GZGE5W4RV&cv_ct_cx=smartphone&dchild=1&keywords=smartphone&pd_rd_i=B07N4M412B&pd_rd_r=10428f8f-ca18-45f9-8ddc-6687f8e1a20b&pd_rd_w=0cYOk&pd_rd_wg=XI9uq&pf_rd_p=3d1a8341-be16-45b1-ae3d-ba8c533ec9f0&pf_rd_r=P1R4SVRKGRNY2YC4JCB5&psc=1&qid=1601901925&s=electronics&sprefix=smart%2Ccomputers-intl-ship%2C324&sr=1-3-12d4272d-8adb-4121-8624-135149aa9081"
+            ><img src="nokia.jpg" alt="nokia7.2" width="80px" height="120px"
+          /></a>
+        </td>
+        <td>
+          Nokia 7.2 - Android 9.0 Pie - 128 GB - 48MP Triple Camera - Unlocked
+          Smartphone (AT&T/T-Mobile/MetroPCS/Cricket/Mint) - 6.3" FHD+ HDR
+          Screen - Charcoal - U.S. Warranty
+        </td>
+        <td>
+          <ul>
+            <li>
+              Advanced Triple camera setup - three rear cameras Feature Ultra
+              wide, portrait, and advanced low light Imaging capabilities for
+              better night time shots with SLR optical effects and UHD 4K video
+              recording.
+            </li>
+            <li>
+              6. 3" HDR PUREDISPLAY - The FHD+ Gorilla Glass Pure Display from
+              Nokia brings always on HDR, wider color reproduction, stellar
+              color accuracy, and adaptive display for better viewing and longer
+              battery life.
+            </li>
+            <li>
+              Better Performance with 2 day battery life - the Nokia 7. 2
+              features a Qualcomm Snapdragon 660 processor that brings together
+              high performance and better battery optimizations to allow for 2
+              days of battery life. Battery : 5Volt/2Amp compatible
+            </li>
+          </ul>
+        </td>
+        <td>$349.00</td>
+      </tr>
+      <td>Samsung Galaxy Note 10</td>
+        <td>
+          <a
+            href="https://www.amazon.com/Samsung-Galaxy-Factory-Unlocked-Warranty/dp/B07V5KSWXM/ref=pd_di_sccai_31?_encoding=UTF8&pd_rd_i=B07V5KSWXM&pd_rd_r=fe91af40-f437-40e4-8ba4-8cf8e6ce1b0f&pd_rd_w=AnAAG&pd_rd_wg=szUVD&pf_rd_p=5415687b-2c9d-46da-88a4-bbcfe8e07f3c&pf_rd_r=5EK2N54T8NKMC3AZ4HWB&psc=1&refRID=5EK2N54T8NKMC3AZ4HWB"
+            ><img src="note10.jpg" alt="Note 10" width="80px" height="120px"
+          /></a>
+        </td>
+        <td>
+            Samsung Galaxy Note 10 Factory Unlocked Cell Phone with 256GB (U.S. Warranty), Aura Black/ Note10
+        </td>
+        <td>
+          <ul>
+            <li>
+                Fast charging, long lasting intelligent power and super speed processing outlast 
+                whatever you throw at Note 10
+            </li>
+            <li>
+                S pen’s newest Evolution gives you the power of air gestures, a remote shutter 
+                and playlist button and handwriting to text, all in One Magic wand
+            </li>
+            <li>
+                With a full set of Pro lenses, super stabilization, live video bokeh and precision 
+                audio recording, Note 10 is a studio in your pocket.
+            </li>
+          </ul>
+        </td>
+        <td>$949.99</td>
+      </tr>
+    </table>
+    <h3>click the photos for the link</h3>
+    <h2>Map</h2>
+    <div id="googleMap" style="width:100%;height:400px;">
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.18194700117!2d19.49006301476353!3d40.44910976159458!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x134533c8da4d4017%3A0x3c681df75c2bbfbc!2sBAR%20RIVA!5e0!3m2!1sen!2s!4v1601906079267!5m2!1sen!2s" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>" 
+        width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      
+      </div>
+      <footer>Smartphone Shop        ( ADDRESS:Vlore,Albania)</footer>
+        <script>
+           window.onload = function () {
+    console.log(window.alert("Welcome"));
+  };
+        </script>
+  </body>
+</html>
